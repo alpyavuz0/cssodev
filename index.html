@@ -1,96 +1,129 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Library Web</title>
-    <link rel="icon" href="media/indir.jpg" type="image/x-icon" style="background-color: black;">
+    <link rel="icon" href="media/depositphotos_177093900-stock-illustration-diamond-real-estate-logo-design.jpg" type="image/x-icon" style="background-color: black;" >
+    <link rel="stylesheet" href="style.css">
+    <link rel=”stylesheet” href=”https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css”>
 </head>
+
 <body>
     <!-- Başlık ve navbar  -->
     <header>
-        <h1 class="mainhead">Web Library</h1>
-        <img src="https://picsum.photos/id/217/80/120" alt="Sayfa Logo">
-        <hr>
-        <nav>
-            <h3 class="navmenü">Menü</h3>
-            <ul>
-                <li><a href="index.html">Ana Sayfa</a></li>
-                <li><a href="contact.html">İletişim</a></li>
-                <li><a href="about-us.html">Hakkımızda</a></li>
-            </ul>
+        <nav style="height: 200px;">
+            <a href="index.html"><h1 class="mainhead" style="font-size: 64px;position: absolute; bottom:710px; left:150px; color: #B689C0;">Web Library</h1></a>  
+            
+            <!-- nav logo -->
+            <a href="index.html"><img src="media/—Pngtree—business triangle company logo_3365919.png" alt="logo" class="navlogo"></a>
+            <div class="main-menü" style="position: absolute ;top: 128px;">
+                <div>
+                    <span id="m1"><p><a href="index.html"><b style="color: #D3CEDF;"><img src="media/home.png" alt="home" style="width: 17px; color: #EFEFEF;"> Ana Sayfa</b></a></p></span>
+                    <span id="m2"><p><a href="contact.html"><b style="color: #D3CEDF;"><img src="media/phone.png" alt="contact" style="width:17px ;"> İletişim</b></a></p></span>
+                    <span id="m3"><p><a href="about-us.html"><b style="color: #D3CEDF;"><img src="media/google-docs.png" alt="about-us" style="width: 17px;"> Hakkımızda</b></a></p></span>
+                </div>
+            </div>
         </nav>
     </header>
     <hr>
     <!-- Main: sectiion, article, web içeriği -->
     <main>
-        <aside class="sidemenü">
-            <h2>Yazılar</h2>
-            <ol>
-                <li><h3 id="p">Pandalar</h3>
-                <img src="https://picsum.photos/100/150" alt="Panda"></li>
-                <li><h3 id="a">Atlar</h3>
-                <img src="https://picsum.photos/100/150" alt="At"></li>
-                <li><h3 id="s">Örümcekler</h3>
-                <img src="https://picsum.photos/100/150" alt="Örümcek"></li>
-                <li><h3 id="b">Kuşlar</h3>
-                <img src="https://picsum.photos/100/150" alt="Kuş"></li>
-                <li><h3 id="y">Yarasalar</h3>
-                <img src="https://picsum.photos/100/150" alt="Yarasa"></li>
+        <aside>
+            <h2 class="left-text">Yazılar</h2>
+            <p class="yan-p">Lorem ipsum dolor sit amet.</p>
+            <p class="yan-p">Lorem ipsum dolor sit.</p>
+            <ol class="left-list">
+                <li>
+                    <h3 id="p">Pandalar</h3>
+                    <img src="https://picsum.photos/id/227/150/150" alt="Panda">
+                    <p style="color: black; font-family:sans-serif; font-size:16px">Lorem.</p>
+                </li>
+                <li>
+                    <h3 id="a">Atlar</h3>
+                    <img src="https://picsum.photos/id/254/150/150" alt="At">
+                    <p style="color: black; font-family:sans-serif; font-size:16px">Lorem.</p>
+                </li>
+                <li>
+                    <h3 id="s">Örümcekler</h3>
+                    <img src="https://picsum.photos/id/258/150/150" alt="Örümcek">
+                    <p style="color: black; font-family:sans-serif; font-size:16px">Lorem.</p>
+                </li>
+                <li>
+                    <h3 id="b">Kuşlar</h3>
+                    <img src="https://picsum.photos/id/256/150/150" alt="Kuş">
+                    <p style="color: black; font-family:sans-serif; font-size:16px">Lorem.</p>
+                </li>
+                <li>
+                    <h3 id="y">Yarasalar</h3>
+                    <img src="https://picsum.photos/id/243/150/150" alt="Yarasa">
+                    <p style="color: black; font-family:sans-serif; font-size:16px">Lorem.</p>
+                </li>
             </ol>
         </aside>
-        <hr>
+        
         <section>
-            <h2 class="mainhead">Baykuşlar</h2>
-            <article>
+            <h2 class="mainhead" style="margin-left: 17%; font-style: italic; font-family: sans-serif;">Baykuşlar</h2>
+            <article class="p1">
+                <img src="media/baykus.jpg" alt="baykus" class="image">
                 <h3 class="infohead">Baykuşların Genel Özellikleri</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, tenetur?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, eaque.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, placeat.</p>
+                <p>->Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor, ipsam!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, laboriosam?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, repudiandae.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, tenetur?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, eaque.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, placeat Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, error Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, facere! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis?</p>
             </article>
-            <hr>
-            <article>
+
+            <article class="p2">
+                <img src="media/baykus1.jpg" alt="baykus" class="image1">
                 <h3 class="infohead">Baykuşlar Kaç Türden Oluşur?</h3>
-                <p>Lorem ipsum dolor sit amet.</p>
+                <p style="margin-left: 5%;">Lorem ipsum dolor sit amet.</p>
                 <ol>
-                    <li class="lis">Lorem, ipsum.</li>
+                    <li class="lis" style="text-align:center ;">Lorem, ipsum.</li>
                     <li class="lis">Molestiae, accusantium?</li>
                     <li class="lis">Enim, tempore.</li>
                     <li class="lis">Aspernatur, reprehenderit.</li>
                     <li class="lis">Modi, similique!</li>
                 </ol>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, dolore.</p>
+                <p style="text-align:center ;margin-left: 5%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, dolore.</p>
             </article>
-            <hr>
-            <article>
+
+            <article class="p3">
                 <h3 class="infohead">Dünya Üzerinde Baykuşların Durumu</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, soluta?</p>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto, facilis!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, provident.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non.</p>
+
             </article>
-            <hr>
+
         </section>
     </main>
-    <hr>
     <!-- Footer  bölümü-->
     <footer>
         <nav>
-            <h3 class="navmenü">Menü</h3>
-            <ul>
-                <li><a href="index.html">Ana Sayfa</a></li>
-                <li><a href="contact.html">İletişim</a></li>
-                <li><a href="about-us.html">Hakkımızda</a></li>
-            </ul>
-            <h3 class="navmenü">Diğer Yazılarımız</h3>
-            <ul>
-                <li><a href="#p">Pandalar</a></li>
-                <li><a href="#a">Atlar</a></li>
-                <li><a href="#s">Örümcekler</a></li>
-                <li><a href="#b">Kuşlar</a></li>
-                <li><a href="#y">Yarasalar</a></li>
-            </ul>
+           
+                <div class="left">
+                    <p class="lis1"><a href="index.html" style="color:#EFEFEF ;"><img src="media/home.png" alt="home" style="width: 18px;"> Ana Sayfa</a></p>
+                    <p class="lis1"><a href="contact.html" style="color:#EFEFEF ;"><img src="media/phone.png" alt="contact" style="width: 18px;"> İletişim</a></p>
+                    <p class="lis1"><a href="about-us.html" style="color:#EFEFEF ;"><img src="media/google-docs.png" alt="about-us" style="width:18px;"> Hakkımızda</a></p>
+                
+                </div>
+                <div class="right">
+                
+                <p class="lis2"><a href="#p" style="color:#EFEFEF ;"><img src="media/down-arrow.png" alt="arrow" style="width:17px ;"> Pandalar</a></p>
+                <p class="lis2"><a href="#a" style="color:#EFEFEF ;"><img src="media/down-arrow.png" alt="arrow" style="width:17px ;"> Atlar</a></p>
+                <p class="lis2"><a href="#s" style="color:#EFEFEF ;"><img src="media/down-arrow.png" alt="arrow" style="width:17px ;"> Örümcekler</a></p>
+                <p class="lis2"><a href="#b" style="color:#EFEFEF ;"><img src="media/down-arrow.png" alt="arrow" style="width:17px ;"> Kuşlar</a></p>
+                <p class="lis2"><a href="#y" style="color:#EFEFEF ;"><img src="media/down-arrow.png" alt="arrow" style="width:17px ;"> Yarasalar</a></p>
+            
+                </div>
+            <img src="media/—Pngtree—business triangle company logo_3365919.png" alt="logo" class="foot-logo">
         </nav>
     </footer>
-    <hr>
 </body>
 </html>
