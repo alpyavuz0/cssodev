@@ -2,7 +2,7 @@
 <p>Burada yapmaya calıstığım sey ilk bölümdeki videolardan ve kendi yaptığım ufak çaplı araştırmalardan elde ettiğim bilgiler ile basit bir web sitesi hazırlamaktı.</p>
 <p>Web sitesi üç sayfadan oluşmaktadır: ana sayfa, iletişim ve hakkımızda.</p>
 <p>Basit bir yapıya sahip bu web sitesi şöyle görünmektedir:</p>
-<img src="https://resimyukle.io/r/fPxYWlinkJ" alt="ö1">
-<img src="https://www.hizliresim.com/9bzejav" alt="ö2">
-<img src ="https://www.hizliresim.com/1ycjei3" alt="ö3">
-<img src="https://www.hizliresim.com/h43c5fd" alt="ö4">
+<img src="https://imgyukle.com/f/2022/07/16/VUz48Q.png" alt="VUz48Q.png" border="0">
+<img src="https://imgyukle.com/f/2022/07/16/VUzFbS.png" alt="VUzFbS.png" border="0">
+<img src="https://imgyukle.com/f/2022/07/16/VUzZQb.png" alt="VUzZQb.png" border="0">
+<img src="https://imgyukle.com/f/2022/07/16/VUzbgs.png" alt="VUzbgs.png" border="0">
