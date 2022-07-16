@@ -1,29 +1,3 @@
-/* seb sayfasında sol tarafa hizalanacak */
-/******************** aside ******************/
-.left-text {
-    text-align: left;
-    font-size: 28px;
-    font-family: sans-serif;
-    margin-left: 13%;
-    color: #F66B0E;
-}
-
-.left-list {
-    text-align: left;
-    list-style-type: none;
-    margin-right: 10%;
-    float: left;
-    font-size: 20px;
-    color: #F66B0E;
-}
-
-.yan-p {
-    font-size: 16px;
-    font-family: sans-serif;
-    text-align: left;
-    margin-left: 13%;
-}
-
 /* ana başlıklar aynı hizada yazılar ile orantılı olacak */
 .mainhead {
     text-align: center;
@@ -100,31 +74,23 @@ a:active {
     top: 12px;
 }
 
-/************************* body ****************/
-/* merkez kısımda sağ tarafta 
-article ve section barındıyor */
+/* içerik kısmı */
+
+.mainhead {
+    color: #EFEFEF;
+    font-size: 54px;
+    font-family: sans-serif;
+    font-style: oblique;
+}
+
 body {
     background-color: #112B3C;
 }
 
-section {
-    text-align: center;
-}
-
-.lis {
-    text-align: center;
-    list-style-type: none;
-    padding-left: 0%;
+/* adresss */
+address {
+    font-size: 24px;
     color: black;
-}
-
-/* yazı başlıkları */
-.infohead {
-    font-family: sans-serif;
-    color: #F66B0E;
-    font-size: 36px;
-    text-align: center;
-
 }
 
 /*************** footer ****************/
@@ -167,66 +133,34 @@ footer {
     height: 150px;
     position: absolute;
     left: 1640px;
-    top: 1550px;
+    top: 915px;
 
 }
 
-/* articless */
-.p1 {
-    margin-left: 7%;
-    height: 311px;
+/* iletişim bilgileri */
+
+.mainblock {
+    background-color: #EFEFEF;
+    height: 400px;
     font-size: 24px;
-    text-align: left;
-    font-weight: 200;
-    background-color: #EFEFEF;
-    font-style: italic;
+    font-family: sans-serif;
+    font-weight: 100;
 }
 
-.p2 {
-    margin-left: 7%;
-    height: 355px;
-    font-size: 24px;
-    font-weight: 200;
-    background-color: #EFEFEF;
-    font-style: italic;
+.il-head {
+    margin-left: 10px;
+    margin-top: 4%;
+    color: #F66B0E;
 }
 
-.p3 {
-    margin-left: 19.8%;
-    height: 340px;
-    width: 1430px;
-    font-size: 24px;
-    background-color: #EFEFEF;
-    text-align: center;
-    font-style: italic;
-}
+/* image dosyasıı */
 
-/* aside */
-aside {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 20%;
-    background-color: #EFEFEF;
-    height: 146.8%;
-    /* Maksimum yükseklik */
-    position: absolute;
-    top: 220px;
-    /* Kaydırmada bile sabit kalmasını sağlar */
-    overflow: auto;
-    /* Çok fazla içerik varsa kaydırmayı etkinleştir */
-}
-
-/* Anasayfa yazı image */
 .image {
-    width: 500px;
-    position: static;
-    float: left;
-    margin-left: 13%;
+    float: right;
+    width: 399.7px;
 }
 
-.image1 {
-    width: 350px;
-    position: static;
-    float: right;
+/* iletişim listeler */
+.liste {
+    color: black;
 }

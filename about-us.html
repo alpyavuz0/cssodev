@@ -1,26 +1,46 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Library Web-Hakkımızda</title>
-    <link rel="icon" href="media/indir.jpg" type="image/x-icon"
-    style="background-color:black ;">
+    <link rel="icon" href="media/—Pngtree—business triangle company logo_3365919.png" type="image/x-icon"
+        style="background-color:black ;">
+    <link rel="stylesheet" href="about-us.css">
 </head>
+
 <body>
     <!-- Başlık ve menü kısmı, navbar -->
     <header>
-        <h1 class="mainhead">Biz Kimiz?</h1>
-        <img src="https://picsum.photos/id/247/900/600" alt="Biz">
-        <hr>
-        <nav>
-            <h3 class="navmenü">Menü</h3>
-            <ul>
-                <li><a href="index.html">Ana Sayfa</a></li>
-                <li><a href="contact.html">İletişim</a></li>
-                <li><a href="about-us.html">Hakkımızda</a></li>
-            </ul>
+        <nav style="height: 200px;">
+            <a href="index.html">
+                <h1 class="mainhead"
+                    style="font-size: 64px;position: absolute; bottom:710px; left:150px; color: #B689C0; font-family: serif;">
+                    Web Library
+                </h1>
+            </a>
+
+            <!-- nav logo -->
+            <a href="index.html"><img src="media/—Pngtree—business triangle company logo_3365919.png" alt="logo"
+                    class="navlogo"></a>
+            <div class="main-menü" style="position: absolute ;top: 128px;">
+                <div>
+                    <span id="m1">
+                        <p><a href="index.html"><b style="color: #D3CEDF;"><img src="media/home.png" alt="home"
+                                        style="width: 17px; color: #EFEFEF;"> Ana Sayfa</b></a></p>
+                    </span>
+                    <span id="m2">
+                        <p><a href="contact.html"><b style="color: #D3CEDF;"><img src="media/phone.png" alt="contact"
+                                        style="width:17px ;"> İletişim</b></a></p>
+                    </span>
+                    <span id="m3">
+                        <p><a href="about-us.html"><b style="color: #D3CEDF;"><img src="media/google-docs.png"
+                                        alt="about-us" style="width: 17px;"> Hakkımızda</b></a></p>
+                    </span>
+                </div>
+            </div>
         </nav>
     </header>
     <hr>
@@ -28,23 +48,34 @@
     <main>
         <section>
             <h2 class="mainhead">Lorem, ipsum.</h2>
-            <article>
+            <article class="art1">
                 <h3 class="infohead">Lorem.</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, a!</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, mollitia?</p>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, magnam.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, cumque?</p>
             </article>
             <hr>
-            <article>
+            <article class="art2">
                 <h3 class="infohead">Lorem, ipsum.</h3>
-                <img src="https://picsum.photos/id/267/80/120" alt="first">
-                <p>Lorem.</p>
-                <hr>
-                <img src="https://picsum.photos/id/277/80/120" alt="second">
-                <p>Lorem.</p>
-                <hr>
-                <img src="https://picsum.photos/id/287/80/120" alt="third">
-                <p>Lorem.</p>                
+                <div id="d1">
+                    <img src="https://picsum.photos/id/267/200/300" alt="first">
+                    <p>Lorem.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit.</p>
+                </div>
+                <div id="d2">
+                    <img src="https://picsum.photos/id/277/200/300" alt="second">
+                    <p>Lorem.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit.</p>
+                </div>
+                <div id="d3">
+                    <img src="https://picsum.photos/id/287/200/300" alt="third">
+                    <p>Lorem.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit.</p>
+                </div>
             </article>
         </section>
     </main>
@@ -52,13 +83,33 @@
     <!-- Footer bölümü; navbar ve yönlendirme -->
     <footer>
         <nav>
-            <h3 class="navmenü">Menü</h3>
-            <ul>
-                <li><a href="index.html">Ana Sayfa</a></li>
-                <li><a href="contact.html">İletişim</a></li>
-                <li><a href="about-us.html">Hakkımızda</a></li>
-            </ul>
+
+            <div class="left">
+                <p class="lis1"><a href="index.html" style="color:#EFEFEF ;"><img src="media/home.png" alt="home"
+                            style="width: 18px;"> Ana Sayfa</a></p>
+                <p class="lis1"><a href="contact.html" style="color:#EFEFEF ;"><img src="media/phone.png" alt="contact"
+                            style="width: 18px;"> İletişim</a></p>
+                <p class="lis1"><a href="about-us.html" style="color:#EFEFEF ;"><img src="media/google-docs.png"
+                            alt="about-us" style="width:18px;"> Hakkımızda</a></p>
+
+            </div>
+            <div class="right">
+
+                <p class="lis2"><a href="#p" style="color:#EFEFEF ;"><img src="media/down-arrow.png" alt="arrow"
+                            style="width:17px ;"> Pandalar</a></p>
+                <p class="lis2"><a href="#a" style="color:#EFEFEF ;"><img src="media/down-arrow.png" alt="arrow"
+                            style="width:17px ;"> Atlar</a></p>
+                <p class="lis2"><a href="#s" style="color:#EFEFEF ;"><img src="media/down-arrow.png" alt="arrow"
+                            style="width:17px ;"> Örümcekler</a></p>
+                <p class="lis2"><a href="#b" style="color:#EFEFEF ;"><img src="media/down-arrow.png" alt="arrow"
+                            style="width:17px ;"> Kuşlar</a></p>
+                <p class="lis2"><a href="#y" style="color:#EFEFEF ;"><img src="media/down-arrow.png" alt="arrow"
+                            style="width:17px ;"> Yarasalar</a></p>
+
+            </div>
+            <img src="media/—Pngtree—business triangle company logo_3365919.png" alt="logo" class="foot-logo">
         </nav>
     </footer>
 </body>
+
 </html>
